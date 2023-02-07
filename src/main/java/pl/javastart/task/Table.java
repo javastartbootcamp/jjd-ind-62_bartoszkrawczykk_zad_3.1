@@ -1,16 +1,17 @@
 package pl.javastart.task;
 
 public class Table {
-    String pen;
-    String book;
-    String lamp;
+    String size;
+    String color;
+    double height;
 
-    Table(String pen1, String book1) {
-        pen = pen1;
-        book = book1;
+    Table(String si, String co, double he) {
+        size = si;
+        color = co;
+        height = he;
     }
 
     void printInfo() {
-        System.out.println(pen + " " + book);
+        System.out.println(size + " " + color + " " + height + "cm");
     }
 }
